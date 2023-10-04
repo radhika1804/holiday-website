@@ -1,0 +1,76 @@
+/* Reset default styles for all elements */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: serif;
+}
+
+.seound-div-flight{
+    padding-top: 0px;
+}
+/* .select-fli{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+.uper{
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    padding-top: 5px;
+}
+.div-in{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.p-d-flight{
+    margin-left: 10px;
+    padding-top: 5px;
+}
+.input-flight {
+    padding: 4px;
+    width: 300px;
+    height: 100%;
+    box-shadow: 0px 2px 8px 0px #C2B280;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+
+/* Style the button */
+.button-ser {
+    background-color: #C2B280;
+    color: white;
+    border: none;
+    padding: 4px 10px;
+    border-radius: 8px;
+    margin-left: 10px; 
+}
+.cards-flight{
+    margin-right: 10px;
+}
+.fa-plane {
+    margin: 0 10px; 
+    font-size: 24px; 
+}
+.flight-h2{
+    margin-left: 0pc;
+    /* margin-right: 10px; */
+}
+.flight-p{
+    margin-left: 0pc;
+}
+.flight-cards-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 10px;
+    justify-content: space-around;
+    padding: 0;
+    width: 100%; 
+    overflow: auto; 
+}
+.img-card-div{
+    width: 100%;
+}

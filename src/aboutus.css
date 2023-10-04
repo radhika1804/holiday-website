@@ -1,0 +1,130 @@
+.class-image-about{
+    background-image: url('../public/about-beach-two.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 100px;
+    height:55vh;
+}
+.side{
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    margin-top: 70px;
+}
+
+.niche{
+    background-image: url('../public/about-div.avif');
+    border-radius: 10px;
+    background-size: 500px;
+    background-repeat: no-repeat;
+    background-size: smaller;
+    width: 98%;
+    margin-left: 11px;
+    height: 250px;
+    border-radius: 10px;
+}
+.story{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 500px;
+    margin-top: 30px;
+    /* font-size: 35px; */
+    /* color: white; */
+    padding-top: 30px;
+}
+.travel{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-left: 515px;
+    /* font-size: 25px; */
+}
+.card-gap:hover {
+    transform: scale(1.05); /* Scale the card on hover */
+    transition: transform 0.2s ease; /* Add a smooth transition */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+  }
+  .card-gap:hover p.card-title {
+    color: #0492C2; 
+  }
+.secound-niche{
+    /* background-color: #0492C2; */
+    margin-top: 25px;
+    background-image: url('../public/sec-img.avif');
+    border-radius: 10px;
+    background-size: 500px;
+    background-repeat: no-repeat;
+    background-size: smaller;
+    width: 98%;
+    margin-left: 11px;
+    height: 250px;
+    border-radius: 10px;
+}
+.vision{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 500px;
+    margin-top: 30px;
+    /* font-size: 35px; */
+    /* color: white; */
+    padding-top: 30px;
+}
+.day{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-left: 515px;
+    /* font-size: 25px;    */
+}
+.p-d{
+    margin-top: 30px;
+    margin-left: 19px;
+}
+@media (max-width: 768px) {
+    .class-image-about {
+        height: 55vh; 
+    }
+
+    .side {
+        text-align: center; 
+        margin-top: 30px; 
+    }
+
+    .niche {
+        height: 250px; 
+        background-size: cover; 
+    }
+    .story,
+    .travel {
+        margin-left: 0; 
+        text-align: center; 
+    }
+
+    .story {
+        font-size: 30px; 
+        color: white;
+        margin-top: 15px; 
+    }
+
+    .travel {
+        font-size: 20px; 
+        color: white;
+    }
+    .vision,
+    .day{
+        margin-left: 0; 
+        text-align: center; 
+        color: white;
+    }
+    .vision {
+        font-size: 30px; 
+        color: white;
+        margin-top: 15px; 
+    }
+
+    .day {
+        font-size: 20px; 
+    }
+}

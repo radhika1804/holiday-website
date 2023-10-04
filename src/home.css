@@ -1,0 +1,231 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: serif;
+    
+}
+
+.img {
+    background-image: url('../public/photo-1505144808419-1957a94ca61e.avif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    
+}
+
+.main-div-one{
+    padding-top: 250px;
+    margin: 0 10%;
+}
+
+.white-bg {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    padding: 10px;
+    height: 150px;
+    border-radius: 10px;
+    
+}
+
+.date-input-container {
+    display: flex;
+    align-items: center;
+    position: relative;
+    border: none;
+    /* border-radius: 7px;
+    margin-top: 5px;
+    height: 40px;
+    width: 250px; */
+}
+
+.date-input-container i.fa-calendar {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    z-index: 1;
+   
+}
+.input-row {
+    display: flex;
+    border: none;
+    justify-content: space-between;
+    
+  }
+  
+  .input-group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: none; */
+    flex-direction: column;
+  }
+  
+  .lable {
+    display: block;
+  }
+.des{
+    margin-top: 5px;
+    height: 40px;
+    width: 250px;
+    border-radius: 7px;
+    border: 1px solid black;
+}
+.price{
+    border-radius: 7px;
+    margin-top: 5px;
+    height: 40px;
+    width: 250px;
+    border: 1px solid black;
+}
+.date{
+    border-radius: 7px;
+    margin-top: 5px;
+    height: 40px;
+    width: 250px;
+    border: 1px solid black;
+}
+.fot{
+    border-radius: 7px;
+    margin-top: 5px;
+    height: 40px;
+    display: flex;
+    margin-left: 500px;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    border: 1px solid black;
+}
+.fot-button{
+    margin-left: 505px;
+    width: 20%;
+    border-radius: 30px;
+    margin-top: 10px;
+    height: 30px;
+}
+
+P{
+    margin-left: 111px;
+
+}
+h2{
+    
+    margin-left: 111px;
+ 
+}
+.card{
+    margin-top: 300px;
+    height: auto;
+}
+.image-card{
+    height: auto;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.card-title{
+margin-right: 40px;
+margin-left: auto;
+margin-top: 10px;
+width: 100%;
+overflow: hidden;
+white-space: nowrap;
+text-overflow: ellipsis;
+max-height: 3.2em; 
+line-height: 1.6em;
+}
+.card-price{
+    
+    font-weight: bolder;
+}
+.card-details{
+    background-color: #C2B280;
+    color: white;
+    position: relative;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+.card-details:hover {
+    background-color:#0492C2;
+    color: white;
+  }
+.card-gap{
+  margin: 10px;
+  height: 400px;
+}
+.footer-div{
+    background-image: url('../public/photo-1505144808419-1957a94ca61e.avif');
+    background-size: cover;
+}
+.st{
+    float: left;
+}
+.ul-div{
+    column-gap: 10px;
+}
+.sty{
+    float: left;
+    /* border-radius: 20px; */
+}
+.white-div-footer{
+    border-radius: 15px;
+    width: auto;
+    padding-top: 10px;
+}
+.good-thought{
+    border-radius: 10px;
+    font-size: 20px;
+    width: 530px;
+    padding-top: 60px;
+    height: 100px;
+}
+
+.p-i{
+    padding-top: 10px;
+}
+.fot-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 605px;
+    width: 45px;
+}
+.h5{
+    padding-top: 10px;
+    margin-left: 25pc;
+}
+.h2-t{
+  margin-left: 27pc;
+}
+@media screen and (max-width: 768px) {
+    .main-div {
+        padding-top: 100px; 
+        margin: 0 5%; 
+    }
+
+    .white-bg {
+        flex-direction: column;
+        height: auto; 
+    }
+
+    .date-input-container i.fa-calendar {
+        right: 5px; 
+    }
+
+    .des, .price, .date {
+        width: 100%; 
+    }
+}
+.vision{
+    
+}
